@@ -1,0 +1,3 @@
+*.env
+mercado.db
+relatorio_mercado.txt
