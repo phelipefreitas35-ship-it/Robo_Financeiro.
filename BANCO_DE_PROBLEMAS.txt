@@ -1,0 +1,10 @@
+=====================================================
+          BANCO DE PROBLEMAS DA CENTRAL DE AGENTES
+=====================================================
+
+[PROBLEMA 01] - Monitoramento Financeiro de Ações
+- Setor: Finanças / Investimentos
+- O Gargalo Atual: Acompanhamento diário e manual de cotações de mercado.
+- Entrada de Dados: APIs financeiras (YFinance).
+- Saída Esperada: Relatório analítico com recomendações e salvamento no banco de dados.
+- Solução: Agente 1 (Robô Financeiro + SQLite) - CONCLUÍDO (Aguardando upgrade de chave).

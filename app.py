@@ -5,10 +5,11 @@ from google import genai
 import yfinance as yf
 
 # Configuração do cliente Gemini (Mantenha as aspas)
-API_KEY = "SUA_CHAVE_AQUI"
+import os
+
+# A chave deve ser lida do ambiente local sem ficar gravada no código público
+API_KEY = os.getenv("GEMINI_API_KEY", "SUA_CHAVE_AQUI")
 client = genai.Client(api_key=API_KEY)
-
-
 def inicializar_banco():
     """Cria o banco de dados e a tabela se ainda não existirem."""
     conexao = sqlite3.connect("mercado.db")
